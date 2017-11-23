@@ -1,0 +1,30 @@
+{
+  "name": "eslint-plugin-sklik",
+  "version": "0.0.1",
+  "description": "Custom eslint rules for Sklik",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Ondrej Zdych <ondrej.zdych@firma.seznam.cz>",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha ./test/**/*.spec.js"
+  },
+  "dependencies": {
+    "comment-parser": "^0.4.0",
+    "semver-compare": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.0.0",
+    "mocha": "^3.4.2"
+  },
+  "peerDependencies": {
+    "eslint": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=7.0.0"
+  },
+  "license": "ISC"
+}
