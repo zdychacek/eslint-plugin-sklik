@@ -23,8 +23,5 @@
   "peerDependencies": {
     "eslint": "^4.0.0"
   },
-  "engines": {
-    "node": ">=7.0.0"
-  },
   "license": "ISC"
 }
