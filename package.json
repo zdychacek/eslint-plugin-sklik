@@ -1,6 +1,6 @@
 {
   "name": "@sklik/eslint-plugin-rules",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Custom eslint rules for Sklik",
   "keywords": [
     "eslint",
