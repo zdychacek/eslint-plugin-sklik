@@ -1,7 +1,7 @@
 'use strict';
 
 const rule = require('../../../lib/rules/deprecated');
-const RuleTester = require('eslint').RuleTester;
+const { RuleTester } = require('eslint');
 
 RuleTester.setDefaultConfig({
   parser: 'babel-eslint',
