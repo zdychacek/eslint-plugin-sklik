@@ -1,25 +1,13 @@
 module.exports = {
-  parserOptions: {
-    ecmaVersion: 6
+  env: {
+    browser: false,
   },
-  plugins: [
-  ],
-  globals: {
+  extends: "./node_modules/@sklik/eslint-config/.eslintrc",
+  parserOptions: {
+    sourceType: "module"
   },
   rules: {
+    indent: [ 2, 2 ],
     strict: 0,
-    'no-console': 0,
-    'linebreak-style': [
-      2,
-      'unix',
-    ],
-    quotes: [
-      2,
-      'single',
-    ],
-    semi: [
-      2,
-      'always',
-    ],
-  },
+  }
 };

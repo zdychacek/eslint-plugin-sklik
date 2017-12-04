@@ -17,7 +17,9 @@
     "semver-compare": "^1.0.0"
   },
   "devDependencies": {
-    "babel-eslint": "^7.0.0",
+    "@sklik/eslint-config": "latest",
+    "babel-eslint": "^7.2.3",
+    "eslint-plugin-you-dont-need-lodash-underscore": "^6.3.1",
     "mocha": "^3.4.2"
   },
   "peerDependencies": {
